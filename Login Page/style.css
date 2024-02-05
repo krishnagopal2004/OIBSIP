@@ -1,0 +1,143 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+html {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(117, 187, 237);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(7px);
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 25.2em;
+  max-width: 100%;
+  height: 25.2em;
+  margin: 0 auto;
+  padding-top: 12.6em;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #dde6ed;
+  padding: 1.575em;
+  border-radius: 20px;
+  width: auto;
+  height: auto;
+  box-shadow: 1px 1px 15px -10px;
+  position: relative;
+}
+
+h1 {
+  margin-bottom: 1.26em;
+  color: #40597b;
+  font-family: 'Poppins',sans-serif;
+  font-size: 2.205rem;
+  max-inline-size: 100%;
+  min-inline-size: 20%;
+}
+
+.fieldgroup-1 {
+  width: auto;
+  height: auto;
+  position: relative;
+}
+
+.fa-user {
+  position: absolute;
+  left: -2px;
+  top: 2px;
+  width: 50px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #526D82
+}
+
+.fieldgroup-2 {
+  width: auto;
+  height: auto;
+  position: relative;
+}
+
+.fa-lock {
+  position: absolute;
+  left: -2px;
+  top: 2px;
+  width: 50px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #526D82
+}
+
+label[for="Name"],
+label[for="Password"] {
+  margin-right: 75%;
+  color: #40597b;
+  font-weight: 700;
+  font-size: small;
+  font-family: 'Poppins';
+}
+
+input[type="text"],
+input[type="password"] {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  width: 87%;
+  padding: 10px;
+  padding-left: 35px;
+  border: none;
+  border-radius: 25px;
+  margin-top: 1%;
+  -webkit-text-fill-color: #a9a9a9;
+  outline: none;
+}
+
+button#login {
+  text-align: center;
+  width: 100%;
+  padding: 0.63em;
+  background-color: #526D82;
+  color: white;
+  border: none;
+  border-radius: 4.41em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  margin-top: 2.52em;
+  font-size: 100%;
+  cursor: pointer;
+}
+
+a#git-icon {
+  position: absolute;
+  top: 0em;
+  right: 0em;
+  cursor: pointer;
+  padding: 0.4em 0.6em 0.4em 0.745em;
+  width: fit-content;
+  border-radius: 0px 0px 0px 30px;
+  border: none;
+  background-color: #DDE6ED;
+  color: black;
+}
+
+i#github {
+  font-size: 3rem;
+}
